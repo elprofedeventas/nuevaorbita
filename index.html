@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- SEO básico -->
+  <title>Nueva Órbita — Software vertical para PyMEs en Ecuador | Alfredo Pérez</title>
+  <meta name="description" content="Sistematizamos tu operación, automatizamos lo repetitivo y te damos inteligencia para decidir. Aplicaciones verticales para ventas, distribución, belleza, inmobiliaria, seguros, agro y más. Diseñadas por un vendedor con 30 años de calle." />
+  <meta name="author" content="Alfredo Pérez — El Profe de Ventas" />
+  <meta name="keywords" content="CRM Ecuador, software vendedores Guayaquil, PWA empresas Ecuador, aplicación ventas campo, CRM distribución, software salón belleza, CRM agentes inmobiliarios, software agrícola Ecuador, Nueva Órbita, Escuela de Vendedores" />
+  <meta name="theme-color" content="#0a0a0f" />
+  <link rel="canonical" href="https://nuevaorbita.com/" />
+
+  <!-- Open Graph (WhatsApp, Facebook, LinkedIn) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://nuevaorbita.com/" />
+  <meta property="og:title" content="Nueva Órbita — Software vertical para PyMEs en Ecuador" />
+  <meta property="og:description" content="Sistematizamos tu operación, automatizamos lo repetitivo y te damos inteligencia para decidir. Diseñado por un vendedor con 30 años de calle, no por un developer de escritorio." />
+  <meta property="og:image" content="https://nuevaorbita.com/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:site_name" content="Nueva Órbita" />
+  <meta property="og:locale" content="es_EC" />
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Nueva Órbita — Software vertical para PyMEs en Ecuador" />
+  <meta name="twitter:description" content="Sistematizamos. Automatizamos. Te damos inteligencia para decidir." />
+  <meta name="twitter:image" content="https://nuevaorbita.com/og-image.jpg" />
+
+  <!-- Favicon placeholder (Alfredo: reemplazar con archivo real) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='14' fill='%23d4a437'/%3E%3Cellipse cx='50' cy='50' rx='44' ry='14' fill='none' stroke='%23d4a437' stroke-width='2' transform='rotate(-20 50 50)'/%3E%3C/svg%3E" />
+
+  <!-- Preconnect para performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Tipografías: Fraunces (display editorial con carácter) + Manrope (sans preciso) -->
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,300;1,9..144,400&family=Manrope:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Fraunces', 'serif'],
+            sans: ['Manrope', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+          },
+          colors: {
+            ink: '#0a0a0f',
+            'ink-soft': '#13131a',
+            'ink-line': '#1f1f2b',
+            bone: '#f5f1e8',
+            'bone-dim': '#c9c3b4',
+            gold: '#d4a437',
+            'gold-bright': '#f0c662',
+            'gold-deep': '#8a6b1f',
+          },
+        },
+      },
+    };
+  </script>
+
+  <!-- Schema.org JSON-LD: Organization + Person + Products -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://nuevaorbita.com/#organization",
+        "name": "Nueva Órbita",
+        "url": "https://nuevaorbita.com/",
+        "logo": "https://nuevaorbita.com/logo.png",
+        "description": "Software vertical para PyMEs en Ecuador. Sistematización, automatización e inteligencia de negocio para ventas, distribución, belleza, inmobiliaria, seguros, agro y más.",
+        "founder": {
+          "@id": "https://nuevaorbita.com/#alfredo"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Guayaquil",
+          "addressCountry": "EC"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+593-99-700-2220",
+          "email": "alfredo@nuevaorbita.com",
+          "contactType": "sales",
+          "areaServed": "EC",
+          "availableLanguage": ["Spanish"]
+        },
+        "sameAs": [
+          "https://www.instagram.com/nuevaorbita",
+          "https://www.tiktok.com/@nuevaorbita",
+          "https://www.linkedin.com/in/alfredoideas",
+          "https://escueladevendedores.com"
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://nuevaorbita.com/#alfredo",
+        "name": "Alfredo Pérez",
+        "alternateName": "El Profe de Ventas",
+        "jobTitle": "Fundador de Nueva Órbita y Escuela de Vendedores",
+        "description": "Entrepreneur y sales professional con más de 30 años fortaleciendo estructuras comerciales en Ecuador.",
+        "url": "https://nuevaorbita.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/alfredoideas",
+          "https://escueladevendedores.com"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://nuevaorbita.com/#website",
+        "url": "https://nuevaorbita.com/",
+        "name": "Nueva Órbita",
+        "publisher": {
+          "@id": "https://nuevaorbita.com/#organization"
+        },
+        "inLanguage": "es-EC"
+      },
+      {
+        "@type": "ItemList",
+        "name": "Aplicaciones Nueva Órbita",
+        "itemListElement": [
+          {"@type": "SoftwareApplication", "name": "ORDEN PPP", "applicationCategory": "BusinessApplication", "description": "CRM para equipos de venta en campo.", "operatingSystem": "Web, iOS, Android (PWA)", "offers": {"@type": "Offer", "price": "35", "priceCurrency": "USD"}},
+          {"@type": "SoftwareApplication", "name": "DISTRIBUYE", "applicationCategory": "BusinessApplication", "description": "Gestión de distribución a retail moderno.", "operatingSystem": "Web, iOS, Android (PWA)"},
+          {"@type": "SoftwareApplication", "name": "BELLEZA", "applicationCategory": "BusinessApplication", "description": "Software para gabinetes, spas y peluquerías.", "operatingSystem": "Web, iOS, Android (PWA)"},
+          {"@type": "SoftwareApplication", "name": "ESTÉTICA", "applicationCategory": "BusinessApplication", "description": "Clínicas de cirugía plástica y medicina estética.", "operatingSystem": "Web, iOS, Android (PWA)"},
+          {"@type": "SoftwareApplication", "name": "COTIZA", "applicationCategory": "BusinessApplication", "description": "Cotizaciones en campo para contratistas y técnicos.", "operatingSystem": "Web, iOS, Android (PWA)"},
+          {"@type": "SoftwareApplication", "name": "RESTÓ", "applicationCategory": "BusinessApplication", "description": "Operación de restaurantes y cafeterías.", "operatingSystem": "Web, iOS, Android (PWA)"},
+          {"@type": "SoftwareApplication", "name": "COMANDA", "applicationCategory": "BusinessApplication", "description": "Gestión de almuerzos en restaurantes.", "operatingSystem": "Web, iOS, Android (PWA)"},
+          {"@type": "SoftwareApplication", "name": "PROPIEDAD", "applicationCategory": "BusinessApplication", "description": "Herramienta para agentes inmobiliarios.", "operatingSystem": "Web, iOS, Android (PWA)"},
+          {"@type": "SoftwareApplication", "name": "PÓLIZA", "applicationCategory": "BusinessApplication", "description": "Software para agentes de seguros.", "operatingSystem": "Web, iOS, Android (PWA)"},
+          {"@type": "SoftwareApplication", "name": "AGRO", "applicationCategory": "BusinessApplication", "description": "Venta de insumos agrícolas y cobranza.", "operatingSystem": "Web, iOS, Android (PWA)"},
+          {"@type": "SoftwareApplication", "name": "CAPITA", "applicationCategory": "BusinessApplication", "description": "Gestión de portafolios para asesores de inversión.", "operatingSystem": "Web, iOS, Android (PWA)"},
+          {"@type": "SoftwareApplication", "name": "PROSPERA", "applicationCategory": "BusinessApplication", "description": "Gestión de leads de Instagram y WhatsApp.", "operatingSystem": "Web, iOS, Android (PWA)"}
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --ink: #0a0a0f;
+      --ink-soft: #13131a;
+      --ink-line: #1f1f2b;
+      --bone: #f5f1e8;
+      --bone-dim: #c9c3b4;
+      --gold: #d4a437;
+      --gold-bright: #f0c662;
+      --gold-deep: #8a6b1f;
+    }
+
+    * {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: var(--ink);
+      color: var(--bone);
+      font-family: 'Manrope', sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* Ruido sutil de fondo — textura de papel antiguo */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 1;
+      opacity: 0.035;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    }
+
+    /* Contenido siempre por encima del ruido */
+    main, header, footer, nav { position: relative; z-index: 2; }
+
+    /* Display typography refinada */
+    .font-display { font-family: 'Fraunces', serif; font-optical-sizing: auto; }
+
+    /* Línea dorada decorativa */
+    .gold-rule {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold) 20%, var(--gold) 80%, transparent);
+    }
+
+    /* Eyebrow con monospace */
+    .eyebrow {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.72rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+
+    /* Animación orbital del hero */
+    @keyframes orbit-slow {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes orbit-mid {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(-360deg); }
+    }
+    @keyframes orbit-fast {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    .orbit-1 { animation: orbit-slow 60s linear infinite; }
+    .orbit-2 { animation: orbit-mid 45s linear infinite; }
+    .orbit-3 { animation: orbit-fast 30s linear infinite; }
+
+    /* Brillo sutil del núcleo */
+    @keyframes pulse-glow {
+      0%, 100% { opacity: 0.4; transform: scale(1); }
+      50% { opacity: 0.7; transform: scale(1.05); }
+    }
+    .core-glow { animation: pulse-glow 4s ease-in-out infinite; }
+
+    /* Staggered reveal on load */
+    @keyframes rise-in {
+      from { opacity: 0; transform: translateY(28px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .rise { animation: rise-in 1s cubic-bezier(0.16, 1, 0.3, 1) both; }
+
+    /* Scroll reveal */
+    .scroll-reveal {
+      opacity: 0;
+      transform: translateY(32px);
+      transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1), transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .scroll-reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Starfield muy sutil */
+    .starfield {
+      background-image:
+        radial-gradient(1px 1px at 10% 20%, rgba(245,241,232,0.4), transparent),
+        radial-gradient(1px 1px at 80% 60%, rgba(212,164,55,0.3), transparent),
+        radial-gradient(1px 1px at 30% 80%, rgba(245,241,232,0.3), transparent),
+        radial-gradient(1.5px 1.5px at 70% 30%, rgba(245,241,232,0.35), transparent),
+        radial-gradient(1px 1px at 50% 50%, rgba(212,164,55,0.2), transparent),
+        radial-gradient(1px 1px at 90% 85%, rgba(245,241,232,0.25), transparent),
+        radial-gradient(1px 1px at 15% 70%, rgba(245,241,232,0.3), transparent);
+    }
+
+    /* Número grande editorial */
+    .editorial-num {
+      font-family: 'Fraunces', serif;
+      font-weight: 300;
+      font-style: italic;
+      color: var(--gold);
+      font-feature-settings: "ss01";
+    }
+
+    /* Hover elevación card */
+    .app-card {
+      transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+      border: 1px solid var(--ink-line);
+    }
+    .app-card:hover {
+      border-color: var(--gold);
+      transform: translateY(-4px);
+      background: linear-gradient(135deg, rgba(212,164,55,0.04), transparent);
+    }
+    .app-card:hover .app-code {
+      color: var(--gold-bright);
+    }
+
+    /* Botón principal */
+    .btn-primary {
+      background: var(--gold);
+      color: var(--ink);
+      transition: all 0.3s ease;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+    .btn-primary:hover {
+      background: var(--gold-bright);
+      transform: translateY(-2px);
+      box-shadow: 0 12px 28px -8px rgba(212,164,55,0.4);
+    }
+    .btn-ghost {
+      border: 1px solid var(--ink-line);
+      color: var(--bone);
+      transition: all 0.3s ease;
+    }
+    .btn-ghost:hover {
+      border-color: var(--gold);
+      color: var(--gold-bright);
+    }
+
+    /* Underline dorado animado */
+    .gold-underline {
+      position: relative;
+      display: inline-block;
+    }
+    .gold-underline::after {
+      content: '';
+      position: absolute;
+      left: 0; bottom: -4px;
+      width: 100%; height: 2px;
+      background: var(--gold);
+      transform-origin: left;
+      transform: scaleX(0);
+      transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .gold-underline:hover::after { transform: scaleX(1); }
+
+    /* Marquee infinito para el manifiesto */
+    @keyframes marquee {
+      from { transform: translateX(0); }
+      to { transform: translateX(-50%); }
+    }
+    .marquee-track {
+      animation: marquee 50s linear infinite;
+    }
+
+    /* Blockquote con borde dorado */
+    .gold-quote {
+      border-left: 2px solid var(--gold);
+    }
+
+    /* Mejor renderizado de números en precios */
+    .tabular { font-variant-numeric: tabular-nums; }
+
+    /* Tratamiento de cita del hero */
+    .hero-quote::before,
+    .hero-quote::after {
+      font-family: 'Fraunces', serif;
+      color: var(--gold);
+      font-size: 1.5em;
+      line-height: 0;
+      position: relative;
+    }
+
+    /* WhatsApp FAB */
+    .wa-fab {
+      transition: all 0.3s ease;
+    }
+    .wa-fab:hover {
+      transform: scale(1.08);
+    }
+
+    /* Fórmula destacada */
+    .formula-box {
+      background: linear-gradient(135deg, rgba(212,164,55,0.06), transparent);
+      border: 1px solid rgba(212,164,55,0.2);
+    }
+
+    /* Responsive fixes */
+    @media (max-width: 768px) {
+      .editorial-num { font-size: clamp(3rem, 15vw, 5rem); }
+    }
+
+    /* Selection */
+    ::selection {
+      background: var(--gold);
+      color: var(--ink);
+    }
+  </style>
+</head>
+
+<body class="bg-ink text-bone">
+
+  <!-- ============================================
+       NAVEGACIÓN FIJA
+       ============================================ -->
+  <header class="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-ink/70 border-b border-ink-line">
+    <nav class="max-w-7xl mx-auto px-6 lg:px-10 py-4 flex items-center justify-between">
+      <a href="#top" class="flex items-center gap-3 group">
+        <!-- Mark: órbita dorada -->
+        <svg class="w-9 h-9" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+          <ellipse cx="20" cy="20" rx="17" ry="6" stroke="currentColor" stroke-width="1" class="text-gold" transform="rotate(-22 20 20)" />
+          <circle cx="20" cy="20" r="4" fill="currentColor" class="text-gold" />
+        </svg>
+        <span class="font-display text-xl font-medium tracking-tight">
+          Nueva <span class="italic text-gold">Órbita</span>
+        </span>
+      </a>
+
+      <!-- Nav links desktop -->
+      <div class="hidden md:flex items-center gap-8 text-sm">
+        <a href="#filosofia" class="gold-underline hover:text-gold-bright transition">Filosofía</a>
+        <a href="#aplicaciones" class="gold-underline hover:text-gold-bright transition">Aplicaciones</a>
+        <a href="#fundador" class="gold-underline hover:text-gold-bright transition">Fundador</a>
+        <a href="#contacto" class="gold-underline hover:text-gold-bright transition">Contacto</a>
+      </div>
+
+      <a href="https://wa.me/593997002220?text=Hola%20Alfredo,%20quiero%20ver%20una%20demo%20de%20Nueva%20%C3%93rbita" target="_blank" rel="noopener" class="btn-primary hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm">
+        <span>Hablar por WhatsApp</span>
+        <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H9M17 7V15"/></svg>
+      </a>
+    </nav>
+  </header>
+
+  <!-- ============================================
+       HERO
+       ============================================ -->
+  <section id="top" class="relative min-h-screen flex items-center pt-24 pb-16 overflow-hidden">
+
+    <!-- Fondo: starfield + gradiente -->
+    <div class="absolute inset-0 starfield opacity-60" aria-hidden="true"></div>
+    <div class="absolute inset-0 bg-gradient-radial" style="background: radial-gradient(ellipse at 70% 30%, rgba(212,164,55,0.08), transparent 60%);" aria-hidden="true"></div>
+
+    <!-- Órbitas animadas decorativas -->
+    <div class="absolute -right-40 top-1/2 -translate-y-1/2 w-[900px] h-[900px] pointer-events-none hidden lg:block" aria-hidden="true">
+      <div class="orbit-1 absolute inset-0 border border-gold/15 rounded-full"></div>
+      <div class="orbit-2 absolute inset-12 border border-gold/10 rounded-full"></div>
+      <div class="orbit-3 absolute inset-28 border border-gold/8 rounded-full"></div>
+      <!-- Planeta núcleo -->
+      <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-24 h-24">
+        <div class="core-glow absolute inset-0 bg-gold rounded-full blur-2xl"></div>
+        <div class="absolute inset-6 bg-gradient-to-br from-gold-bright to-gold-deep rounded-full"></div>
+      </div>
+    </div>
+
+    <div class="relative max-w-7xl mx-auto px-6 lg:px-10 grid lg:grid-cols-12 gap-12 items-center w-full">
+
+      <!-- Columna izquierda: copy -->
+      <div class="lg:col-span-7">
+
+        <!-- Eyebrow -->
+        <div class="rise flex items-center gap-4 mb-8" style="animation-delay: 0.1s">
+          <span class="eyebrow">★ Guayaquil · Ecuador · Desde 2026</span>
+        </div>
+
+        <!-- Título principal -->
+        <h1 class="font-display font-light leading-[0.95] tracking-tight text-[clamp(2.8rem,7vw,5.75rem)] mb-8">
+          <span class="rise block" style="animation-delay: 0.2s">No vendemos</span>
+          <span class="rise block italic text-bone-dim" style="animation-delay: 0.35s">software.</span>
+          <span class="rise block mt-2" style="animation-delay: 0.5s">Ponemos tu empresa</span>
+          <span class="rise block" style="animation-delay: 0.65s">
+            en <span class="text-gold italic font-normal">nueva órbita</span>.
+          </span>
+        </h1>
+
+        <!-- Subtítulo con la fórmula -->
+        <p class="rise text-lg md:text-xl text-bone-dim max-w-xl leading-relaxed mb-10" style="animation-delay: 0.85s">
+          <span class="text-bone font-medium">Sistematizamos</span> tu operación.
+          <span class="text-bone font-medium">Automatizamos</span> lo repetitivo.
+          Y te damos <span class="text-bone font-medium">inteligencia</span> para decidir.
+        </p>
+
+        <!-- CTAs -->
+        <div class="rise flex flex-wrap items-center gap-4" style="animation-delay: 1s">
+          <a href="https://diagnostico.nuevaorbita.com" target="_blank" rel="noopener" class="btn-primary px-7 py-4 rounded-full inline-flex items-center gap-2">
+            Diagnóstico gratis en 3 minutos
+            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#aplicaciones" class="btn-ghost px-7 py-4 rounded-full inline-flex items-center gap-2">
+            Ver las 12 aplicaciones
+          </a>
+        </div>
+
+        <!-- Micro proof line -->
+        <div class="rise mt-14 flex items-center gap-4" style="animation-delay: 1.2s">
+          <div class="gold-rule w-12"></div>
+          <p class="eyebrow !text-bone-dim !normal-case !tracking-wider !text-xs">
+            Diseñado por un vendedor con 30 años de calle. No por un developer de escritorio.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Columna derecha: coordenadas tipo carta astronómica -->
+      <div class="hidden lg:block lg:col-span-5">
+        <div class="rise relative" style="animation-delay: 0.6s">
+          <!-- Ficha técnica editorial -->
+          <div class="relative z-10 border border-ink-line bg-ink-soft/40 backdrop-blur-sm p-8 rounded-sm">
+            <div class="gold-rule mb-6"></div>
+            <p class="eyebrow mb-4">Coordenadas</p>
+            <dl class="space-y-4 text-sm">
+              <div class="flex justify-between border-b border-ink-line pb-3">
+                <dt class="text-bone-dim">Aplicaciones activas</dt>
+                <dd class="font-mono text-gold tabular">12</dd>
+              </div>
+              <div class="flex justify-between border-b border-ink-line pb-3">
+                <dt class="text-bone-dim">Verticales cubiertos</dt>
+                <dd class="font-mono text-gold tabular">10+</dd>
+              </div>
+              <div class="flex justify-between border-b border-ink-line pb-3">
+                <dt class="text-bone-dim">Años de campo</dt>
+                <dd class="font-mono text-gold tabular">30+</dd>
+              </div>
+              <div class="flex justify-between border-b border-ink-line pb-3">
+                <dt class="text-bone-dim">Precio desde</dt>
+                <dd class="font-mono text-gold tabular">$35/mes</dd>
+              </div>
+              <div class="flex justify-between">
+                <dt class="text-bone-dim">Implementación</dt>
+                <dd class="font-mono text-gold tabular">&lt; 2 días</dd>
+              </div>
+            </dl>
+            <div class="gold-rule mt-6"></div>
+          </div>
+
+          <!-- Detalle decorativo -->
+          <div class="absolute -top-4 -right-4 w-24 h-24 border border-gold/30 rounded-full"></div>
+          <div class="absolute -bottom-4 -left-4 w-16 h-16 border border-gold/20 rounded-full"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Indicador de scroll -->
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 rise" style="animation-delay: 1.5s">
+      <div class="flex flex-col items-center gap-2 text-bone-dim">
+        <span class="eyebrow !text-[10px]">Desciende</span>
+        <div class="w-px h-10 bg-gradient-to-b from-gold to-transparent"></div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ============================================
+       MARQUEE — Manifiesto en movimiento
+       ============================================ -->
+  <section class="border-y border-ink-line py-6 overflow-hidden bg-ink-soft/30">
+    <div class="marquee-track flex gap-12 whitespace-nowrap" aria-hidden="true">
+      <!-- Duplicamos el contenido para loop infinito -->
+      <div class="flex items-center gap-12 shrink-0">
+        <span class="font-display italic text-2xl text-bone-dim">Sistematizar el caos</span>
+        <span class="text-gold">✦</span>
+        <span class="font-display italic text-2xl text-bone-dim">Automatizar lo repetitivo</span>
+        <span class="text-gold">✦</span>
+        <span class="font-display italic text-2xl text-bone-dim">Decidir con datos</span>
+        <span class="text-gold">✦</span>
+        <span class="font-display italic text-2xl text-bone-dim">No más cuaderno, agenda, Excel y WhatsApp dispersos</span>
+        <span class="text-gold">✦</span>
+        <span class="font-display italic text-2xl text-bone-dim">Software hecho en Guayaquil</span>
+        <span class="text-gold">✦</span>
+      </div>
+      <div class="flex items-center gap-12 shrink-0">
+        <span class="font-display italic text-2xl text-bone-dim">Sistematizar el caos</span>
+        <span class="text-gold">✦</span>
+        <span class="font-display italic text-2xl text-bone-dim">Automatizar lo repetitivo</span>
+        <span class="text-gold">✦</span>
+        <span class="font-display italic text-2xl text-bone-dim">Decidir con datos</span>
+        <span class="text-gold">✦</span>
+        <span class="font-display italic text-2xl text-bone-dim">No más cuaderno, agenda, Excel y WhatsApp dispersos</span>
+        <span class="text-gold">✦</span>
+        <span class="font-display italic text-2xl text-bone-dim">Software hecho en Guayaquil</span>
+        <span class="text-gold">✦</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       FILOSOFÍA — La fórmula
+       ============================================ -->
+  <section id="filosofia" class="py-28 lg:py-40 relative">
+    <div class="max-w-6xl mx-auto px-6 lg:px-10">
+
+      <div class="scroll-reveal grid lg:grid-cols-12 gap-10 items-start mb-16">
+        <div class="lg:col-span-4">
+          <p class="eyebrow mb-4">01 — Filosofía</p>
+          <h2 class="font-display font-light text-4xl md:text-5xl leading-tight">
+            La fórmula <span class="italic text-gold">que cambia todo</span>.
+          </h2>
+        </div>
+        <div class="lg:col-span-7 lg:col-start-6">
+          <p class="text-lg text-bone-dim leading-relaxed">
+            Zapier, Make y n8n conectan aplicaciones que <em>ya existen</em>. Nosotros hacemos algo más ambicioso: creamos la aplicación que <em>antes no existía</em> para tu vertical — y de paso automatizamos todo lo que pasa adentro.
+          </p>
+        </div>
+      </div>
+
+      <!-- Fórmula central -->
+      <div class="scroll-reveal formula-box rounded-sm p-8 md:p-14 mb-20">
+        <p class="eyebrow text-center mb-8">La ecuación Nueva Órbita</p>
+        <div class="font-display text-center">
+          <p class="text-2xl md:text-4xl lg:text-5xl leading-snug font-light">
+            <br class="sm:hidden"/>
+            Sistematización
+            <span class="text-gold-bright">+</span>
+            Automatización
+            <span class="text-gold-bright">+</span>
+            Inteligencia
+          </p>
+        </div>
+      </div>
+
+      <!-- Los tres pilares -->
+      <div class="grid md:grid-cols-3 gap-px bg-ink-line">
+
+        <div class="scroll-reveal bg-ink p-8 md:p-10">
+          <div class="editorial-num text-6xl md:text-7xl mb-6">01</div>
+          <h3 class="font-display text-2xl mb-4">Sistematizamos</h3>
+          <p class="text-bone-dim leading-relaxed mb-5">
+            Tomamos tu operación dispersa — cuaderno, agenda, notas, Excel, Calendar, WhatsApp — y la ponemos en una sola estructura ordenada.
+          </p>
+          <p class="text-sm text-bone-dim/80 italic border-l border-gold/40 pl-4">
+            Antes sentías caos. Ahora ves un tablero.
+          </p>
+        </div>
+
+        <div class="scroll-reveal bg-ink p-8 md:p-10" style="transition-delay: 0.1s">
+          <div class="editorial-num text-6xl md:text-7xl mb-6">02</div>
+          <h3 class="font-display text-2xl mb-4">Automatizamos</h3>
+          <p class="text-bone-dim leading-relaxed mb-5">
+            Dentro de esa estructura, metemos brazos robóticos: alertas nocturnas, parsing de emails, liberación de cupos, recálculo de métricas.
+          </p>
+          <p class="text-sm text-bone-dim/80 italic border-l border-gold/40 pl-4">
+            Tú duermes. La máquina trabaja.
+          </p>
+        </div>
+
+        <div class="scroll-reveal bg-ink p-8 md:p-10" style="transition-delay: 0.2s">
+          <div class="editorial-num text-6xl md:text-7xl mb-6">03</div>
+          <h3 class="font-display text-2xl mb-4">Damos inteligencia</h3>
+          <p class="text-bone-dim leading-relaxed mb-5">
+            Dashboards, BI descriptivo y — en las apps que ya lo soportan — predicciones con IA: no-shows, clientes perdidos, próximas acciones.
+          </p>
+          <p class="text-sm text-bone-dim/80 italic border-l border-gold/40 pl-4">
+            Decides con datos, no con intuición cansada.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================
+       DOLORES — Conservamos el bloque que funcionaba
+       ============================================ -->
+  <section class="py-24 lg:py-32 bg-ink-soft/40 border-y border-ink-line">
+    <div class="max-w-6xl mx-auto px-6 lg:px-10">
+
+      <div class="scroll-reveal max-w-3xl mb-16">
+        <p class="eyebrow mb-4">02 — El diagnóstico</p>
+        <h2 class="font-display font-light text-4xl md:text-5xl leading-tight">
+          Tres síntomas. <span class="italic text-gold">Un tratamiento.</span>
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <div class="scroll-reveal">
+          <div class="flex items-start gap-4 mb-6">
+            <svg class="w-10 h-10 text-gold shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <div>
+              <p class="eyebrow mb-2">Síntoma</p>
+              <p class="font-display text-xl leading-snug">Pierdes 20+ horas/semana en tareas que debería hacer una máquina.</p>
+            </div>
+          </div>
+          <div class="gold-rule mb-6"></div>
+          <p class="eyebrow mb-2">Tratamiento</p>
+          <p class="text-bone-dim leading-relaxed">Recuperas tu tiempo. La máquina trabaja 24/7. Tú facturas.</p>
+        </div>
+
+        <div class="scroll-reveal" style="transition-delay: 0.1s">
+          <div class="flex items-start gap-4 mb-6">
+            <svg class="w-10 h-10 text-gold shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            <div>
+              <p class="eyebrow mb-2">Síntoma</p>
+              <p class="font-display text-xl leading-snug">Tu equipo se ahoga en trabajo manual y no le queda tiempo para vender.</p>
+            </div>
+          </div>
+          <div class="gold-rule mb-6"></div>
+          <p class="eyebrow mb-2">Tratamiento</p>
+          <p class="text-bone-dim leading-relaxed">Multiplicas tu capacidad 5× sin contratar a nadie más.</p>
+        </div>
+
+        <div class="scroll-reveal" style="transition-delay: 0.2s">
+          <div class="flex items-start gap-4 mb-6">
+            <svg class="w-10 h-10 text-gold shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            <div>
+              <p class="eyebrow mb-2">Síntoma</p>
+              <p class="font-display text-xl leading-snug">Pagas por software caro que nadie usa porque es demasiado complicado.</p>
+            </div>
+          </div>
+          <div class="gold-rule mb-6"></div>
+          <p class="eyebrow mb-2">Tratamiento</p>
+          <p class="text-bone-dim leading-relaxed">Tecnología que se explica sola. Simple como debe ser.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================
+       APLICACIONES — Catálogo vertical
+       ============================================ -->
+  <section id="aplicaciones" class="py-28 lg:py-40">
+    <div class="max-w-7xl mx-auto px-6 lg:px-10">
+
+      <div class="scroll-reveal grid lg:grid-cols-12 gap-10 items-end mb-16">
+        <div class="lg:col-span-7">
+          <p class="eyebrow mb-4">03 — Constelación</p>
+          <h2 class="font-display font-light text-4xl md:text-6xl leading-[1.05]">
+            12 aplicaciones. <br/>
+            <span class="italic text-gold">Una para tu industria.</span>
+          </h2>
+        </div>
+        <div class="lg:col-span-4 lg:col-start-9">
+          <p class="text-bone-dim leading-relaxed">
+            Cada vertical tiene su propia lógica, su propio cliente, su propia fricción. Por eso no construimos <em>un</em> CRM genérico: construimos <em>la</em> herramienta que cada oficio necesitaba.
+          </p>
+        </div>
+      </div>
+
+      <!-- Grid de apps -->
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-0 border-t border-l border-ink-line">
+
+        <!-- Card plantilla: ORDEN PPP -->
+        <a href="https://wa.me/593997002220?text=Hola%20Alfredo,%20me%20interesa%20ORDEN%20PPP" target="_blank" rel="noopener" class="app-card group p-7 lg:p-8 border-r border-b border-ink-line flex flex-col justify-between min-h-[220px]">
+          <div>
+            <div class="flex items-start justify-between mb-6">
+              <span class="font-mono text-xs text-bone-dim">// 01</span>
+              <span class="app-code font-display text-gold text-sm tracking-[0.15em] transition">ORDEN PPP</span>
+            </div>
+            <h3 class="font-display text-2xl mb-2 leading-snug">CRM para equipos de venta</h3>
+            <p class="text-bone-dim text-sm leading-relaxed">Prospectos, pista, cierres. El cuaderno del vendedor, digital.</p>
+          </div>
+          <div class="flex items-center gap-2 mt-6 text-xs text-gold opacity-0 group-hover:opacity-100 transition">
+            Hablar de esto <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </div>
+        </a>
+
+        <a href="https://wa.me/593997002220?text=Hola%20Alfredo,%20me%20interesa%20DISTRIBUYE" target="_blank" rel="noopener" class="app-card group p-7 lg:p-8 border-r border-b border-ink-line flex flex-col justify-between min-h-[220px]">
+          <div>
+            <div class="flex items-start justify-between mb-6">
+              <span class="font-mono text-xs text-bone-dim">// 02</span>
+              <span class="app-code font-display text-gold text-sm tracking-[0.15em] transition">DISTRIBUYE</span>
+            </div>
+            <h3 class="font-display text-2xl mb-2 leading-snug">Distribución a retail moderno</h3>
+            <p class="text-bone-dim text-sm leading-relaxed">Pedidos, despacho, entregas, incidencias. Para proveedores de grandes cadenas.</p>
+          </div>
+          <div class="flex items-center gap-2 mt-6 text-xs text-gold opacity-0 group-hover:opacity-100 transition">
+            Hablar de esto <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </div>
+        </a>
+
+        <a href="https://wa.me/593997002220?text=Hola%20Alfredo,%20me%20interesa%20BELLEZA" target="_blank" rel="noopener" class="app-card group p-7 lg:p-8 border-r border-b border-ink-line flex flex-col justify-between min-h-[220px]">
+          <div>
+            <div class="flex items-start justify-between mb-6">
+              <span class="font-mono text-xs text-bone-dim">// 03</span>
+              <span class="app-code font-display text-gold text-sm tracking-[0.15em] transition">BELLEZA</span>
+            </div>
+            <h3 class="font-display text-2xl mb-2 leading-snug">Gabinetes, spas y peluquerías</h3>
+            <p class="text-bone-dim text-sm leading-relaxed">Agenda, profesionales, servicios y reservas online con seguridad.</p>
+          </div>
+          <div class="flex items-center gap-2 mt-6 text-xs text-gold opacity-0 group-hover:opacity-100 transition">
+            Hablar de esto <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </div>
+        </a>
+
+        <a href="https://wa.me/593997002220?text=Hola%20Alfredo,%20me%20interesa%20EST%C3%89TICA" target="_blank" rel="noopener" class="app-card group p-7 lg:p-8 border-r border-b border-ink-line flex flex-col justify-between min-h-[220px]">
+          <div>
+            <div class="flex items-start justify-between mb-6">
+              <span class="font-mono text-xs text-bone-dim">// 04</span>
+              <span class="app-code font-display text-gold text-sm tracking-[0.15em] transition">ESTÉTICA</span>
+            </div>
+            <h3 class="font-display text-2xl mb-2 leading-snug">Clínicas de cirugía plástica</h3>
+            <p class="text-bone-dim text-sm leading-relaxed">Fichas quirúrgicas, seguimiento pre y post, agenda médica.</p>
+          </div>
+          <div class="flex items-center gap-2 mt-6 text-xs text-gold opacity-0 group-hover:opacity-100 transition">
+            Hablar de esto <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </div>
+        </a>
+
+        <a href="https://wa.me/593997002220?text=Hola%20Alfredo,%20me%20interesa%20COTIZA" target="_blank" rel="noopener" class="app-card group p-7 lg:p-8 border-r border-b border-ink-line flex flex-col justify-between min-h-[220px]">
+          <div>
+            <div class="flex items-start justify-between mb-6">
+              <span class="font-mono text-xs text-bone-dim">// 05</span>
+              <span class="app-code font-display text-gold text-sm tracking-[0.15em] transition">COTIZA</span>
+            </div>
+            <h3 class="font-display text-2xl mb-2 leading-snug">Cotizaciones en campo</h3>
+            <p class="text-bone-dim text-sm leading-relaxed">Para contratistas y técnicos. PDF, WhatsApp y vista pública para el cliente.</p>
+          </div>
+          <div class="flex items-center gap-2 mt-6 text-xs text-gold opacity-0 group-hover:opacity-100 transition">
+            Hablar de esto <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </div>
+        </a>
+
+        <a href="https://wa.me/593997002220?text=Hola%20Alfredo,%20me%20interesa%20REST%C3%93" target="_blank" rel="noopener" class="app-card group p-7 lg:p-8 border-r border-b border-ink-line flex flex-col justify-between min-h-[220px]">
+          <div>
+            <div class="flex items-start justify-between mb-6">
+              <span class="font-mono text-xs text-bone-dim">// 06</span>
+              <span class="app-code font-display text-gold text-sm tracking-[0.15em] transition">RESTÓ</span>
+            </div>
+            <h3 class="font-display text-2xl mb-2 leading-snug">Restaurantes y cafeterías</h3>
+            <p class="text-bone-dim text-sm leading-relaxed">Mesero, cocina, caja y administración — sincronizados en tiempo real.</p>
+          </div>
+          <div class="flex items-center gap-2 mt-6 text-xs text-gold opacity-0 group-hover:opacity-100 transition">
+            Hablar de esto <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </div>
+        </a>
+
+        <a href="https://wa.me/593997002220?text=Hola%20Alfredo,%20me%20interesa%20COMANDA" target="_blank" rel="noopener" class="app-card group p-7 lg:p-8 border-r border-b border-ink-line flex flex-col justify-between min-h-[220px]">
+          <div>
+            <div class="flex items-start justify-between mb-6">
+              <span class="font-mono text-xs text-bone-dim">// 07</span>
+              <span class="app-code font-display text-gold text-sm tracking-[0.15em] transition">COMANDA</span>
+            </div>
+            <h3 class="font-display text-2xl mb-2 leading-snug">Almuerzos en restaurantes</h3>
+            <p class="text-bone-dim text-sm leading-relaxed">Menú del día, pedidos, facturación ágil para la hora pico.</p>
+          </div>
+          <div class="flex items-center gap-2 mt-6 text-xs text-gold opacity-0 group-hover:opacity-100 transition">
+            Hablar de esto <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </div>
+        </a>
+
+        <a href="https://wa.me/593997002220?text=Hola%20Alfredo,%20me%20interesa%20PROPIEDAD" target="_blank" rel="noopener" class="app-card group p-7 lg:p-8 border-r border-b border-ink-line flex flex-col justify-between min-h-[220px]">
+          <div>
+            <div class="flex items-start justify-between mb-6">
+              <span class="font-mono text-xs text-bone-dim">// 08</span>
+              <span class="app-code font-display text-gold text-sm tracking-[0.15em] transition">PROPIEDAD</span>
+            </div>
+            <h3 class="font-display text-2xl mb-2 leading-snug">Agentes inmobiliarios</h3>
+            <p class="text-bone-dim text-sm leading-relaxed">Cartera de propiedades, clientes, visitas y cierres — alquiler y venta.</p>
+          </div>
+          <div class="flex items-center gap-2 mt-6 text-xs text-gold opacity-0 group-hover:opacity-100 transition">
+            Hablar de esto <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </div>
+        </a>
+
+        <a href="https://wa.me/593997002220?text=Hola%20Alfredo,%20me%20interesa%20P%C3%93LIZA" target="_blank" rel="noopener" class="app-card group p-7 lg:p-8 border-r border-b border-ink-line flex flex-col justify-between min-h-[220px]">
+          <div>
+            <div class="flex items-start justify-between mb-6">
+              <span class="font-mono text-xs text-bone-dim">// 09</span>
+              <span class="app-code font-display text-gold text-sm tracking-[0.15em] transition">PÓLIZA</span>
+            </div>
+            <h3 class="font-display text-2xl mb-2 leading-snug">Agentes de seguros</h3>
+            <p class="text-bone-dim text-sm leading-relaxed">Vida, GMM, Autos, Daños y Empresarial — renovaciones y comisiones sin caos.</p>
+          </div>
+          <div class="flex items-center gap-2 mt-6 text-xs text-gold opacity-0 group-hover:opacity-100 transition">
+            Hablar de esto <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </div>
+        </a>
+
+        <a href="https://wa.me/593997002220?text=Hola%20Alfredo,%20me%20interesa%20AGRO" target="_blank" rel="noopener" class="app-card group p-7 lg:p-8 border-r border-b border-ink-line flex flex-col justify-between min-h-[220px]">
+          <div>
+            <div class="flex items-start justify-between mb-6">
+              <span class="font-mono text-xs text-bone-dim">// 10</span>
+              <span class="app-code font-display text-gold text-sm tracking-[0.15em] transition">AGRO</span>
+            </div>
+            <h3 class="font-display text-2xl mb-2 leading-snug">Venta de insumos agrícolas</h3>
+            <p class="text-bone-dim text-sm leading-relaxed">Vendedores de campo, cultivos, crédito y cobranza — con alertas automáticas.</p>
+          </div>
+          <div class="flex items-center gap-2 mt-6 text-xs text-gold opacity-0 group-hover:opacity-100 transition">
+            Hablar de esto <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </div>
+        </a>
+
+        <a href="https://wa.me/593997002220?text=Hola%20Alfredo,%20me%20interesa%20CAPITA" target="_blank" rel="noopener" class="app-card group p-7 lg:p-8 border-r border-b border-ink-line flex flex-col justify-between min-h-[220px]">
+          <div>
+            <div class="flex items-start justify-between mb-6">
+              <span class="font-mono text-xs text-bone-dim">// 11</span>
+              <span class="app-code font-display text-gold text-sm tracking-[0.15em] transition">CAPITA</span>
+            </div>
+            <h3 class="font-display text-2xl mb-2 leading-snug">Asesores de inversión</h3>
+            <p class="text-bone-dim text-sm leading-relaxed">Portafolios, clientes, productos financieros y seguimiento patrimonial.</p>
+          </div>
+          <div class="flex items-center gap-2 mt-6 text-xs text-gold opacity-0 group-hover:opacity-100 transition">
+            Hablar de esto <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </div>
+        </a>
+
+        <a href="https://wa.me/593997002220?text=Hola%20Alfredo,%20me%20interesa%20PROSPERA" target="_blank" rel="noopener" class="app-card group p-7 lg:p-8 border-r border-b border-ink-line flex flex-col justify-between min-h-[220px]">
+          <div>
+            <div class="flex items-start justify-between mb-6">
+              <span class="font-mono text-xs text-bone-dim">// 12</span>
+              <span class="app-code font-display text-gold text-sm tracking-[0.15em] transition">PROSPERA</span>
+            </div>
+            <h3 class="font-display text-2xl mb-2 leading-snug">Leads de Instagram y WhatsApp</h3>
+            <p class="text-bone-dim text-sm leading-relaxed">Para el emprendedor solo. Captura, clasifica y no se te escapa ningún cliente.</p>
+          </div>
+          <div class="flex items-center gap-2 mt-6 text-xs text-gold opacity-0 group-hover:opacity-100 transition">
+            Hablar de esto <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </div>
+        </a>
+
+      </div>
+
+      <!-- Nota de precio -->
+      <div class="scroll-reveal mt-16 flex flex-wrap items-center justify-between gap-6 border-t border-ink-line pt-8">
+        <div>
+          <p class="eyebrow mb-1">Inversión</p>
+          <p class="font-display text-2xl">Desde <span class="text-gold font-normal">$35</span> <span class="text-bone-dim text-lg">/ usuario / mes</span></p>
+        </div>
+        <a href="https://diagnostico.nuevaorbita.com" target="_blank" rel="noopener" class="btn-ghost px-6 py-3 rounded-full text-sm">
+          ¿No sabes cuál es tuya? Haz el diagnóstico →
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================
+       FUNDADOR — El Profe de Ventas
+       ============================================ -->
+  <section id="fundador" class="py-28 lg:py-40 bg-ink-soft/40 border-y border-ink-line relative overflow-hidden">
+
+    <!-- Detalles decorativos -->
+    <div class="absolute top-20 right-10 w-64 h-64 border border-gold/10 rounded-full hidden lg:block" aria-hidden="true"></div>
+    <div class="absolute bottom-20 left-10 w-40 h-40 border border-gold/10 rounded-full hidden lg:block" aria-hidden="true"></div>
+
+    <div class="max-w-6xl mx-auto px-6 lg:px-10 relative">
+
+      <div class="grid lg:grid-cols-12 gap-12 items-start">
+
+        <!-- Foto -->
+        <div class="scroll-reveal lg:col-span-5">
+          <div class="relative">
+            <!-- Marco dorado -->
+            <div class="absolute -top-3 -left-3 w-full h-full border border-gold/50 rounded-sm"></div>
+            <img src="alfredo.webp" alt="Alfredo Pérez — El Profe de Ventas, fundador de Nueva Órbita" class="relative w-full rounded-sm grayscale-[15%] contrast-105" loading="lazy" />
+            <!-- Caption editorial -->
+            <div class="relative mt-4 flex items-center gap-3">
+              <div class="gold-rule flex-1"></div>
+              <span class="eyebrow !text-[10px]">Alfredo Pérez · Guayaquil · 2026</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Texto -->
+        <div class="scroll-reveal lg:col-span-7 lg:pl-8">
+          <p class="eyebrow mb-4">04 — El fundador</p>
+          <h2 class="font-display font-light text-4xl md:text-5xl leading-tight mb-10">
+            Soy el <span class="italic text-gold">Profe de Ventas</span>.<br/>
+            Y llevo 30 años en esto.
+          </h2>
+
+          <div class="gold-quote pl-6 mb-10">
+            <p class="font-display text-xl md:text-2xl italic leading-relaxed text-bone">
+              "Llevo más de 30 años fortaleciendo estructuras comerciales. Hago esto porque es el único camino que existe hoy para que tu empresa mejore."
+            </p>
+          </div>
+
+          <p class="text-bone-dim leading-relaxed mb-6">
+            No aprendí a vender en un libro. Aprendí en la calle, puerta por puerta, cliente por cliente. Y cuando empecé a construir software, lo hice con una sola regla: <span class="text-bone">que sirva de verdad al que lo usa</span> — no al que lo compra en una presentación con diapositivas bonitas.
+          </p>
+
+          <p class="text-bone-dim leading-relaxed mb-10">
+            Por eso cada aplicación de Nueva Órbita tiene detrás lógica de campo, no solo lógica de programador. Y por eso también existe la <a href="https://escueladevendedores.com" target="_blank" rel="noopener" class="text-gold gold-underline">Escuela de Vendedores</a> — el hermano formativo de este ecosistema.
+          </p>
+
+          <!-- Credenciales en formato ficha -->
+          <div class="grid grid-cols-2 gap-px bg-ink-line border border-ink-line">
+            <div class="bg-ink-soft/60 p-5">
+              <p class="eyebrow mb-1">Experiencia</p>
+              <p class="font-display text-xl">30+ años</p>
+            </div>
+            <div class="bg-ink-soft/60 p-5">
+              <p class="eyebrow mb-1">Escuelas</p>
+              <p class="font-display text-xl">Girard · Hopkins · Cardone · Feldman</p>
+            </div>
+            <div class="bg-ink-soft/60 p-5">
+              <p class="eyebrow mb-1">Base</p>
+              <p class="font-display text-xl">Guayaquil · EC</p>
+            </div>
+            <div class="bg-ink-soft/60 p-5">
+              <p class="eyebrow mb-1">Formación paralela</p>
+              <a href="https://escueladevendedores.com" target="_blank" rel="noopener" class="font-display text-xl text-gold gold-underline">Escuela de Vendedores →</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       TESTIMONIOS — Sección estructurada sin inventar
+       ============================================ -->
+  <section class="py-24 lg:py-32">
+    <div class="max-w-6xl mx-auto px-6 lg:px-10">
+
+      <div class="scroll-reveal max-w-2xl mb-14">
+        <p class="eyebrow mb-4">05 — Voces del campo</p>
+        <h2 class="font-display font-light text-4xl md:text-5xl leading-tight">
+          Lo que dice <span class="italic text-gold">quien lo usa</span>.
+        </h2>
+      </div>
+
+      <!-- Slots preparados para testimonios reales -->
+      <div class="scroll-reveal grid md:grid-cols-3 gap-px bg-ink-line border border-ink-line">
+
+        <div class="bg-ink p-8 min-h-[260px] flex flex-col justify-between">
+          <svg class="w-8 h-8 text-gold/40 mb-4" viewBox="0 0 24 24" fill="currentColor"><path d="M9 7H5a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h2v2a3 3 0 0 1-3 3v2a5 5 0 0 0 5-5V9a2 2 0 0 0-2-2zm12 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h2v2a3 3 0 0 1-3 3v2a5 5 0 0 0 5-5V9a2 2 0 0 0-2-2z"/></svg>
+          <p class="font-display italic text-bone-dim leading-relaxed">Espacio reservado para el primer testimonio verificado de un cliente de Nueva Órbita.</p>
+          <div class="mt-6 pt-4 border-t border-ink-line">
+            <p class="text-xs text-bone-dim/60 font-mono">— Cliente · Industria · Empresa</p>
+          </div>
+        </div>
+
+        <div class="bg-ink p-8 min-h-[260px] flex flex-col justify-between">
+          <svg class="w-8 h-8 text-gold/40 mb-4" viewBox="0 0 24 24" fill="currentColor"><path d="M9 7H5a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h2v2a3 3 0 0 1-3 3v2a5 5 0 0 0 5-5V9a2 2 0 0 0-2-2zm12 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h2v2a3 3 0 0 1-3 3v2a5 5 0 0 0 5-5V9a2 2 0 0 0-2-2z"/></svg>
+          <p class="font-display italic text-bone-dim leading-relaxed">Espacio reservado para el segundo testimonio verificado de un cliente de Nueva Órbita.</p>
+          <div class="mt-6 pt-4 border-t border-ink-line">
+            <p class="text-xs text-bone-dim/60 font-mono">— Cliente · Industria · Empresa</p>
+          </div>
+        </div>
+
+        <div class="bg-ink p-8 min-h-[260px] flex flex-col justify-between">
+          <svg class="w-8 h-8 text-gold/40 mb-4" viewBox="0 0 24 24" fill="currentColor"><path d="M9 7H5a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h2v2a3 3 0 0 1-3 3v2a5 5 0 0 0 5-5V9a2 2 0 0 0-2-2zm12 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h2v2a3 3 0 0 1-3 3v2a5 5 0 0 0 5-5V9a2 2 0 0 0-2-2z"/></svg>
+          <p class="font-display italic text-bone-dim leading-relaxed">Espacio reservado para el tercer testimonio verificado de un cliente de Nueva Órbita.</p>
+          <div class="mt-6 pt-4 border-t border-ink-line">
+            <p class="text-xs text-bone-dim/60 font-mono">— Cliente · Industria · Empresa</p>
+          </div>
+        </div>
+
+      </div>
+
+      <p class="scroll-reveal text-center mt-8 text-xs text-bone-dim/60 italic">Aquí aparecerán las voces de quienes ya están en nueva órbita.</p>
+
+    </div>
+  </section>
+
+  <!-- ============================================
+       CIERRE / CONTACTO
+       ============================================ -->
+  <section id="contacto" class="py-28 lg:py-40 bg-ink-soft/50 border-t border-ink-line relative overflow-hidden">
+
+    <!-- Órbita decorativa gigante -->
+    <div class="absolute -top-40 -right-40 w-[700px] h-[700px] pointer-events-none opacity-40" aria-hidden="true">
+      <div class="orbit-1 absolute inset-0 border border-gold/20 rounded-full"></div>
+      <div class="orbit-2 absolute inset-20 border border-gold/15 rounded-full"></div>
+    </div>
+
+    <div class="max-w-5xl mx-auto px-6 lg:px-10 relative">
+
+      <div class="scroll-reveal text-center mb-14">
+        <p class="eyebrow mb-6">06 — Despegue</p>
+        <h2 class="font-display font-light text-5xl md:text-7xl leading-[1] mb-8">
+          ¿Listo para salir <br/>
+          de la <span class="italic text-gold">atmósfera</span>?
+        </h2>
+        <p class="text-xl text-bone-dim max-w-2xl mx-auto leading-relaxed">
+          Dos caminos. Uno te dice cuál aplicación es la tuya en 3 minutos. El otro te pone a hablar conmigo directamente.
+        </p>
+      </div>
+
+      <div class="scroll-reveal grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+        <a href="https://diagnostico.nuevaorbita.com" target="_blank" rel="noopener" class="group relative border border-ink-line hover:border-gold transition-all duration-500 p-8 rounded-sm overflow-hidden">
+          <div class="absolute top-0 right-0 w-40 h-40 bg-gold/5 rounded-full blur-3xl group-hover:bg-gold/15 transition"></div>
+          <div class="relative">
+            <p class="eyebrow mb-4">Camino 1</p>
+            <h3 class="font-display text-3xl mb-3">Diagnóstico gratis</h3>
+            <p class="text-bone-dim mb-6 text-sm leading-relaxed">Responde 6 preguntas y te digo exactamente qué aplicación necesita tu negocio — y qué dolor te va a quitar primero.</p>
+            <span class="inline-flex items-center gap-2 text-gold text-sm font-medium">
+              Empezar diagnóstico
+              <svg class="w-4 h-4 group-hover:translate-x-1 transition" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+            </span>
+          </div>
+        </a>
+
+        <a href="https://wa.me/593997002220?text=Hola%20Alfredo,%20vengo%20de%20nuevaorbita.com" target="_blank" rel="noopener" class="group relative bg-gold text-ink p-8 rounded-sm overflow-hidden hover:bg-gold-bright transition">
+          <div class="relative">
+            <p class="font-mono text-[0.72rem] tracking-[0.22em] uppercase text-ink/70 mb-4">Camino 2</p>
+            <h3 class="font-display text-3xl mb-3 font-normal">Hablemos directo</h3>
+            <p class="text-ink/80 mb-6 text-sm leading-relaxed">Ábreme un WhatsApp. No hay call center, no hay formulario, no hay vendedor intermedio. Me escribes tú, te contesto yo.</p>
+            <span class="inline-flex items-center gap-2 font-bold text-sm">
+              Abrir WhatsApp
+              <svg class="w-4 h-4 group-hover:translate-x-1 transition" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+            </span>
+          </div>
+        </a>
+      </div>
+
+      <!-- Línea final -->
+      <div class="scroll-reveal mt-16 text-center">
+        <div class="gold-rule w-24 mx-auto mb-6"></div>
+        <p class="font-display italic text-lg text-bone-dim">
+          "Buen viento y a toda mar."
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer class="bg-ink border-t border-ink-line pt-20 pb-10">
+    <div class="max-w-7xl mx-auto px-6 lg:px-10">
+
+      <div class="grid md:grid-cols-12 gap-10 mb-16">
+
+        <!-- Marca -->
+        <div class="md:col-span-5">
+          <div class="flex items-center gap-3 mb-4">
+            <svg class="w-10 h-10" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+              <ellipse cx="20" cy="20" rx="17" ry="6" stroke="currentColor" stroke-width="1" class="text-gold" transform="rotate(-22 20 20)" />
+              <circle cx="20" cy="20" r="4" fill="currentColor" class="text-gold" />
+            </svg>
+            <span class="font-display text-2xl font-medium">Nueva <span class="italic text-gold">Órbita</span></span>
+          </div>
+          <p class="text-bone-dim leading-relaxed max-w-sm mb-6">
+            Software vertical para PyMEs en Ecuador. Sistematización, automatización e inteligencia de negocio.
+          </p>
+          <p class="text-xs text-bone-dim/60 font-mono">Guayaquil · Ecuador</p>
+        </div>
+
+        <!-- Navegación -->
+        <div class="md:col-span-3">
+          <p class="eyebrow mb-5">Explorar</p>
+          <ul class="space-y-3 text-sm">
+            <li><a href="#filosofia" class="gold-underline hover:text-gold-bright transition">Filosofía</a></li>
+            <li><a href="#aplicaciones" class="gold-underline hover:text-gold-bright transition">Aplicaciones</a></li>
+            <li><a href="#fundador" class="gold-underline hover:text-gold-bright transition">Fundador</a></li>
+            <li><a href="https://diagnostico.nuevaorbita.com" target="_blank" rel="noopener" class="gold-underline hover:text-gold-bright transition">Diagnóstico</a></li>
+            <li><a href="https://escueladevendedores.com" target="_blank" rel="noopener" class="gold-underline hover:text-gold-bright transition">Escuela de Vendedores ↗</a></li>
+          </ul>
+        </div>
+
+        <!-- Contacto -->
+        <div class="md:col-span-4">
+          <p class="eyebrow mb-5">Contacto</p>
+          <ul class="space-y-3 text-sm">
+            <li>
+              <a href="https://wa.me/593997002220" target="_blank" rel="noopener" class="flex items-center gap-3 gold-underline hover:text-gold-bright transition">
+                <svg class="w-4 h-4 text-gold" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.966-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+                +593 99 700 2220
+              </a>
+            </li>
+            <li>
+              <a href="mailto:alfredo@nuevaorbita.com" class="flex items-center gap-3 gold-underline hover:text-gold-bright transition">
+                <svg class="w-4 h-4 text-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                alfredo@nuevaorbita.com
+              </a>
+            </li>
+          </ul>
+
+          <p class="eyebrow mt-8 mb-4">Redes</p>
+          <div class="flex items-center gap-4">
+            <a href="https://www.instagram.com/nuevaorbita" target="_blank" rel="noopener" aria-label="Instagram" class="w-10 h-10 border border-ink-line hover:border-gold hover:text-gold flex items-center justify-center rounded-full transition">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://www.tiktok.com/@nuevaorbita" target="_blank" rel="noopener" aria-label="TikTok" class="w-10 h-10 border border-ink-line hover:border-gold hover:text-gold flex items-center justify-center rounded-full transition">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.8 20.1a6.34 6.34 0 0 0 10.86-4.43V8.5a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.84-.43z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/alfredoideas" target="_blank" rel="noopener" aria-label="LinkedIn" class="w-10 h-10 border border-ink-line hover:border-gold hover:text-gold flex items-center justify-center rounded-full transition">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.063 2.063 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="gold-rule mb-8"></div>
+
+      <!-- Legal + copyright -->
+      <div class="flex flex-wrap items-center justify-between gap-4 text-xs text-bone-dim/60">
+        <div class="flex flex-wrap items-center gap-5">
+          <span>© 2026 Nueva Órbita.</span>
+          <a href="/privacidad" class="gold-underline hover:text-gold transition">Política de Privacidad</a>
+          <a href="/terminos" class="gold-underline hover:text-gold transition">Términos de Uso</a>
+          <a href="/aviso-clientes" class="gold-underline hover:text-gold transition">Aviso a Clientes</a>
+        </div>
+        <p class="font-mono italic">Hecho en Guayaquil, con calle.</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ============================================
+       WHATSAPP FAB
+       ============================================ -->
+  <a href="https://wa.me/593997002220?text=Hola%20Alfredo,%20vengo%20de%20nuevaorbita.com" target="_blank" rel="noopener" class="wa-fab fixed bottom-6 right-6 z-50 w-14 h-14 bg-gold hover:bg-gold-bright text-ink rounded-full shadow-2xl shadow-gold/30 flex items-center justify-center" aria-label="Hablar por WhatsApp">
+    <svg class="w-7 h-7" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.966-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>
+    </svg>
+  </a>
+
+  <!-- ============================================
+       SCRIPTS MÍNIMOS
+       ============================================ -->
+  <script>
+    // Scroll reveal con IntersectionObserver
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -60px 0px' });
+
+    document.querySelectorAll('.scroll-reveal').forEach((el) => observer.observe(el));
+  </script>
+
+</body>
+</html>
